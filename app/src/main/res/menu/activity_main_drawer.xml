@@ -5,33 +5,44 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_politica"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Politica" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_lifestyle"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Lifestyle" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_coppie"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Coppie" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_musica"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Musica" />
+        <item
+            android:id="@+id/nav_scuola"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Scuola" />
+        <item
+            android:id="@+id/nav_cinema"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Cinema" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Comunica">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Condividi" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Contattaci" />
+            <item
+                android:id="@+id/nav_info"
+                android:title="Info" />
         </menu>
     </item>
 

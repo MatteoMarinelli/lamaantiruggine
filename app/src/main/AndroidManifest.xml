@@ -19,6 +19,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Politica"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_politica"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".Lifestyle" />
+        <activity android:name=".Cinema" />
+        <activity android:name=".Coppie" />
+        <activity android:name=".Musica" />
+        <activity android:name=".Scuola" />
+        <activity android:name=".info"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package it.marinelli.lamaantiruggine;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,18 +81,31 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
+        if (id == R.id.nav_politica) {
+            Intent i = new Intent(MainActivity.this, Politica.class);
+            MainActivity.this.startActivity(i);
+        } else if (id == R.id.nav_lifestyle) {
+            Intent i = new Intent(MainActivity.this, Lifestyle.class);
+            MainActivity.this.startActivity(i);
+        } else if (id == R.id.nav_cinema) {
+            Intent i = new Intent(MainActivity.this, Cinema.class);
+            MainActivity.this.startActivity(i);
+        } else if (id == R.id.nav_coppie) {
+            Intent i = new Intent(MainActivity.this, Coppie.class);
+            MainActivity.this.startActivity(i);
+        } else if (id == R.id.nav_musica) {
+            Intent i = new Intent(MainActivity.this, Musica.class);
+            MainActivity.this.startActivity(i);
+        } else if (id == R.id.nav_scuola) {
+            Intent i = new Intent(MainActivity.this, Scuola.class);
+            MainActivity.this.startActivity(i);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 
+        } else if (id == R.id.nav_info) {
+            Intent i = new Intent(MainActivity.this, Info.class);
+            MainActivity.this.startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

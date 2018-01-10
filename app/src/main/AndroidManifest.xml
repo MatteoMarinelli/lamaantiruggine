@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -19,17 +19,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Politica"
-            android:configChanges="orientation|keyboardHidden|screenSize"
+        <activity android:name=".Politica"
             android:label="@string/title_activity_politica"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".Lifestyle" />
-        <activity android:name=".Cinema" />
-        <activity android:name=".Coppie" />
-        <activity android:name=".Musica" />
-        <activity android:name=".Scuola" />
-        <activity android:name=".Info"></activity>
+        <activity android:name=".Lifestyle"
+            android:label="Lifestyle"
+            android:theme="@style/FullscreenTheme"/>
+        <activity android:name=".Cinema"
+            android:label="Cinema"
+            android:theme="@style/FullscreenTheme"/>
+        <activity android:name=".Coppie"
+            android:label="Coppie"
+            android:theme="@style/FullscreenTheme"/>
+        <activity android:name=".Musica"
+            android:label="Musica"
+            android:theme="@style/FullscreenTheme"/>
+        <activity android:name=".Scuola"
+            android:label="Scuola"
+            android:theme="@style/FullscreenTheme"/>
+        <activity android:name=".Info"
+            android:label="Info"
+            android:theme="@style/FullscreenTheme"/>
     </application>
 
 </manifest>

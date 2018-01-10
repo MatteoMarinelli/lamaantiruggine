@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/LamaAntiruggine.iml" filepath="$PROJECT_DIR$/LamaAntiruggine.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lamaantiruggine2/lamaantiruggine2.iml" filepath="$PROJECT_DIR$/lamaantiruggine2/lamaantiruggine2.iml" />
     </modules>
   </component>
 </project>

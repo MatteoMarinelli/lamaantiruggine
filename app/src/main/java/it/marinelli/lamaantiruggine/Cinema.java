@@ -12,6 +12,6 @@ public class Cinema extends AppCompatActivity {
         setContentView(R.layout.activity_cinema);
 
         WebView wv = (WebView) findViewById(R.id.navigazione);
-        wv.loadUrl("https://www.lamaantiruggine.it/category/cinema");
+        wv.loadUrl("https://lamaantiruggine.altervista.org/category/cinema");
     }
 }

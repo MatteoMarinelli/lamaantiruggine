@@ -12,6 +12,6 @@ public class Scuola extends AppCompatActivity {
         setContentView(R.layout.activity_scuola);
 
         WebView wv = (WebView) findViewById(R.id.navigazione);
-        wv.loadUrl("https://www.lamaantiruggine.it/category/scuola");
+        wv.loadUrl("https://lamaantiruggine.altervista.org/category/scuola/");
     }
 }

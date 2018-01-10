@@ -12,6 +12,6 @@ public class Coppie extends AppCompatActivity {
         setContentView(R.layout.activity_coppie);
 
         WebView wv = (WebView) findViewById(R.id.navigazione);
-        wv.loadUrl("https://www.lamaantiruggine.it/category/coppie");
+        wv.loadUrl("https://lamaantiruggine.altervista.org/category/coppie");
     }
 }

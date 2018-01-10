@@ -12,6 +12,6 @@ public class Lifestyle extends AppCompatActivity {
         setContentView(R.layout.activity_lifestyle);
 
         WebView wv = (WebView) findViewById(R.id.navigazione);
-        wv.loadUrl("https://www.lamaantiruggine.it/category/lifestyle");
+        wv.loadUrl("https://lamaantiruggine.altervista.org/category/lifestyle");
     }
 }

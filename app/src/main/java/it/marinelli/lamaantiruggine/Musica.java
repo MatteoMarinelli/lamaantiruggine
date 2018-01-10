@@ -12,6 +12,6 @@ public class Musica extends AppCompatActivity {
         setContentView(R.layout.activity_musica);
 
         WebView wv = (WebView) findViewById(R.id.navigazione);
-        wv.loadUrl("https://www.lamaantiruggine.it/category/musica");
+        wv.loadUrl("https://lamaantiruggine.altervista.org/category/musica");
     }
 }

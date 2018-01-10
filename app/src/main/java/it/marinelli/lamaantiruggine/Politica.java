@@ -12,6 +12,6 @@ public class Politica extends AppCompatActivity {
         setContentView(R.layout.activity_politica);
 
         WebView wv = (WebView) findViewById(R.id.navigazione);
-        wv.loadUrl("https://lamaantiruggine.altervista.org/category/politica/");
+        wv.loadUrl("https://www.lamaantiruggine.altervista.org/category/politica/");
     }
 }

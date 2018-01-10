@@ -3,6 +3,7 @@ package it.marinelli.lamaantiruggine;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class Scuola extends AppCompatActivity {
     @Override
@@ -12,6 +13,13 @@ public class Scuola extends AppCompatActivity {
         setContentView(R.layout.activity_scuola);
 
         WebView wv = (WebView) findViewById(R.id.navigazione);
-        wv.loadUrl("https://www.lamaantiruggine.altervista.org/category/scuola/");
+
+        wv.setWebViewClient(new WebViewClient(){
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url){
+                view.loadUrl("https://www.lamaantiruggine.altervista.org/category/scuola/");
+                return true;
+            }
+        });
     }
 }

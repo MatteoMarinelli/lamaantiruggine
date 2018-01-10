@@ -3,6 +3,7 @@ package it.marinelli.lamaantiruggine;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class Cinema extends AppCompatActivity {
     @Override
@@ -12,6 +13,12 @@ public class Cinema extends AppCompatActivity {
         setContentView(R.layout.activity_cinema);
 
         WebView wv = (WebView) findViewById(R.id.navigazione);
-        wv.loadUrl("https://www.lamaantiruggine.altervista.org/category/cinema");
+        wv.setWebViewClient(new WebViewClient(){
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url){
+                view.loadUrl("https://www.lamaantiruggine.altervista.org/category/cinema/");
+                return true;
+            }
+        });
     }
 }

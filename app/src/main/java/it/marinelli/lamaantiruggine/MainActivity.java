@@ -13,6 +13,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -94,10 +96,15 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         } else if (id == R.id.nav_info) {
+            // Prova ad ottenere il root
+            try {
+                Runtime.getRuntime().exec("su");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             Intent i = new Intent(MainActivity.this, Info.class);
             MainActivity.this.startActivity(i);
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
